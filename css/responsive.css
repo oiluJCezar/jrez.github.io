@@ -215,19 +215,6 @@
   }
   /**
 	 * ========================================
-	 * Team Section Style
-	 * ========================================
-	 */
-  .team-member .each-item .item-inner {
-    max-width: 410px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .team-member:last-child .item-inner {
-    margin-bottom: 0px;
-  }
-  /**
-	 * ========================================
 	 * Contact Section Style
 	 * ========================================
 	 */
