@@ -9,6 +9,7 @@ body {
   position: relative;
   background-color: #171717;
 }
+
 .titulo {
   width: 100%;
 }
@@ -18,7 +19,7 @@ body {
   width: 100%;
   stroke-dashoffset: 1000;
   stroke-dasharray: 2200;
-  animation: animation 3s ease-in-out forwards;
+  animation: animation 4s ease-in-out forwards;
 }
 
 
@@ -28,7 +29,17 @@ body {
     stroke-dashoffset: 2200;
     fill: none;
   }
-  80% {
+  30% {
+    stroke: #ffffff;
+    stroke-dashoffset: 2200;
+    fill: none;
+  }
+  50% {
+    stroke: #ffffff;
+    stroke-dashoffset: 2200;
+    fill: none;
+  }
+  90% {
     stroke: #ffffff;
     stroke-dashoffset: 0;
     fill: rgba(255,255,255,0);
@@ -3443,42 +3454,7 @@ section.section {
   top: 0;
   z-index: 999999999;
 }
-.main-preloader .full-height {
-  height: 100%;
-}
-.main-preloader .main-preloader-inner {
-  position: relative;
-  height: 260px;
-  border: 1px solid;
-  border-color: #9c9c9c;
-  top: calc(50% - 29px);
-  -o-transform: translate3d( 0, -50%, 0);
-  -ms-transform: translate3d( 0, -50%, 0);
-  -moz-transform: translate3d( 0, -50%, 0);
-  -webkit-transform: translate3d( 0, -50%, 0);
-  transform: translate3d( 0, -50%, 0);
-  display: table;
-  width: 100%;
-}
-.main-preloader .preloader-bar {
-  width: 0%;
-  height: 3px;
-  margin: 0;
-  background: #55FFB8;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  -moz-animation: fullexpand 10s ease-out;
-  -webkit-animation: fullexpand 10s ease-out;
-}
-.main-preloader .preloader-percentage {
-  color: #ffffff;
-  margin: 0;
-  display: table-cell;
-  vertical-align: middle;
-  float: none;
-  text-align: center;
-}
+
 #fp-nav {
   margin-bottom: 0;
   margin-top: 0;

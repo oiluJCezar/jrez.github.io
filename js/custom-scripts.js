@@ -17,20 +17,6 @@
 
     return result; 
   }
-
-
-  /**
-   * =====================================
-   * Function for email address validation         
-   * =====================================
-   */
-  function isValidEmail(emailAddress) {
-    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
-    return pattern.test(emailAddress);
-  };
-
-
-
   /**
    * =======================================
    * Function: Home Section Fullscreen View.
@@ -143,38 +129,35 @@
     deviceControll();
     fullscreen_home( '.home-section' );
 
+      /**
+       * =============================================
+       * Preloader INIT
+       * =============================================
+       */
+      $('body').jpreLoader({
+          preMainSection:     '#main-preloader',
+          prePerText:         '.preloader-percentage-text',
+          preBar:             '.preloader-bar',
+      });
 
+      // $( '.main-preloader-inner' ).each(function() {
 
-    /**
-     * =============================================
-     * Preloader INIT
-     * =============================================
-     */
-    $('body').jpreLoader({
-        preMainSection:     '#main-preloader',
-        prePerText:         '.preloader-percentage-text',
-        preBar:             '.preloader-bar',
-    });
+      //   var width = $('.home-section .heading-outer').width(),
+      //       height = $('.home-section .heading-outer').height(),
+      //       x = $(".home-section .heading-outer").offset();
 
-    // $( '.main-preloader-inner' ).each(function() {
+      //   $(this).css({
+      //     'width': width + "px",
+      //     'height': height + "px",
+      //     'left': x.left + "px",
+      //     'top': x.top + "px"
+      //   });
 
-    //   var width = $('.home-section .heading-outer').width(),
-    //       height = $('.home-section .heading-outer').height(),
-    //       x = $(".home-section .heading-outer").offset();
-
-    //   $(this).css({
-    //     'width': width + "px",
-    //     'height': height + "px",
-    //     'left': x.left + "px",
-    //     'top': x.top + "px"
-    //   });
-
-    // });
-
+      // });
 
 
 
-    /**
+      /**
      * =======================================
      * Wow Plagin Init
      * =======================================
@@ -184,8 +167,6 @@
         offset:       100
     });
     wow.init();
-
-
 
 
     /**
