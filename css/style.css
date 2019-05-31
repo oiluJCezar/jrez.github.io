@@ -1573,7 +1573,7 @@ section.section {
   margin: 0;
 }
 .project-detail .project-detail-image-outer img {
-  width: 65%;
+  width: 100%;
   max-width: 100%;
 }
 .animate-text {
@@ -1640,6 +1640,7 @@ section.section {
   left: 2px;
   margin-top: 17px;
 }
+
 /**
  * ========================================
  * Testimonials Section Style
@@ -2905,7 +2906,7 @@ section.section {
   -webkit-transition-delay: 1s ;
   transition-delay: 1s ;
 }
-/* Active Style 
+/* Active Style
  * When add this active class then work this style */
 .owl-item.active .each-portfolio-heading {
   /* Heading Title Style */

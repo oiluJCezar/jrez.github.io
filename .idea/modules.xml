@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Portfolio.iml" filepath="$PROJECT_DIR$/.idea/Portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Test/.idea/Test.iml" filepath="$PROJECT_DIR$/../Test/.idea/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Sites/Templates/Fusion/fusion/fusion-responsive/.idea/fusion-responsive.iml" filepath="$PROJECT_DIR$/../Sites/Templates/Fusion/fusion/fusion-responsive/.idea/fusion-responsive.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fusion-responsive.iml" filepath="$PROJECT_DIR$/.idea/fusion-responsive.iml" />
     </modules>
   </component>

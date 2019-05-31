@@ -1,4 +1,4 @@
-/* 
+/*
  * 	Core Owl Carousel CSS File
  *	v1.3.3
  */
@@ -38,7 +38,7 @@
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-	
+
 .owl-carousel .owl-item{
 	float: left;
 }
@@ -53,11 +53,6 @@
 	-ms-user-select: none;
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-/* mouse grab icon */
-.grabbing { 
-    cursor:url(grabbing.png) 8 8, move;
 }
 
 /* fix */
@@ -91,7 +86,7 @@
 .customNavigation{
   text-align: center;
 }
-//use styles below to disable ugly selection
+
 .customNavigation a{
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -112,7 +107,7 @@
 
 
 /*
- *  Owl Carousel CSS3 Transitions 
+ *  Owl Carousel CSS3 Transitions
  *  v1.3.2
  */
 
